@@ -1,0 +1,73 @@
+h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #BCC0C6
+}
+
+main {
+    
+    display: flex;
+}
+
+.osnova {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF8E3;
+    flex: 2;
+}
+
+.esho {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.esho1 {
+    background-color: #FEEAB9;
+    flex-grow: 1;
+}
+
+.esho2 {
+    background-color: #FEEAB9;
+    flex-grow: 1;
+}
+
+.esho3 {
+flex-basis: 100%;
+background-color: #FEEAB9;
+}
+
+aside {
+    background-color: #DDECCB;
+    flex: 1;
+}
+
+footer {
+    background-color:#E0E0E0;
+
+}
+
+.podval {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.section {
+    flex-grow: 1;
+    background-color: #FAFAFA;
+}
